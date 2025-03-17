@@ -1,0 +1,43 @@
+# Pokedex
+
+Este es un proyecto de una *Pokedex* interactiva, donde puedes consultar información sobre los Pokémon. Está construido utilizando HTML, CSS y JavaScript. El proyecto muestra una interfaz simple y moderna para interactuar con una lista de Pokémon, permitiendo al usuario ver detalles como el nombre y el número de cada Pokémon.
+
+## Descripción
+
+La página presenta una interfaz donde puedes buscar Pokémon por nombre o número. También incluye botones de "anterior" y "siguiente" para navegar entre los diferentes Pokémon, mostrando la imagen y detalles de cada uno.
+
+## Características
+
+- *Búsqueda por nombre o número*: Introduce el nombre o el número de un Pokémon en el campo de texto para obtener información sobre él.
+- *Navegación*: Usa los botones "prev" y "next" para moverte entre los Pokémon.
+- *Interfaz interactiva*: Visualiza una imagen de cada Pokémon con su correspondiente información.
+
+## Estructura del Proyecto
+
+El proyecto tiene los siguientes archivos principales:
+
+- *index.html*: La estructura de la página web.
+- *styles.css*: El archivo de estilos que define la apariencia de la página.
+- *script.js*: El archivo de JavaScript que gestiona la lógica de la Pokedex.
+
+### Archivos y sus funciones
+
+1. *index.html*: Contiene la estructura HTML básica del proyecto.
+    - Tiene un campo de entrada de texto (input1) para introducir el nombre o número del Pokémon.
+    - Dispone de dos botones (boton1 y boton2) para navegar entre los Pokémon.
+    - Muestra la imagen y los datos de los Pokémon en una tabla.
+  
+2. *styles.css*: Define los estilos visuales para la interfaz.
+    - Se usa un fondo de degradado azul.
+    - Las imágenes y tablas tienen un formato agradable y coherente con el tema.
+
+3. *script.js*: Contiene la lógica para:
+    - Consultar la información de Pokémon (probablemente se use una API para obtener datos).
+    - Actualizar la imagen y la información cuando se busque un Pokémon o se navegue por los botones de "anterior" y "siguiente".
+
+## Instalación y Uso
+
+1. *Clona este repositorio*:
+
+   ```bash
+   git clone https://github.com/FreilerOrtega/javascript.git
